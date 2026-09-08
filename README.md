@@ -1,4 +1,9 @@
 # ETL Engine
+
+[![Build Status](https://github.com/cgtnt/dotetl/actions/workflows/ci.yml/badge.svg)](https://github.com/cgtnt/dotetl/actions/workflows/ci.yml)
+<!-- To display the coverage badge, consider using Coveralls or Codecov, or a tool that commits the badge to a gist. -->
+![Code Coverage](https://img.shields.io/badge/Coverage-Check%20Actions-brightgreen)
+
 A multithreaded Extract-Transform-Load engine for C#, free of third-party dependencies.
 
 The engine is designed to process large datasets and allows users to define custom data sources, validation pipelines, transformation pipelines and loading destinations. The framework provides a range of implementations of the mentioned components as well. They can be found in the `ETLEngine.StandardLibrary` namespace.
