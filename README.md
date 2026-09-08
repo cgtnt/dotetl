@@ -124,3 +124,7 @@ The following interfaces and implementations (which are useful for creating cust
     - `NewlineRecordReader`
 - `IStreamWriterRecordWriter`
     - `DelimitedRecordWriter`
+
+## Out of scope / architectural roadmap
+While dotetl meets its scope of requirements, the implementation can be further improved by making the following changes:
+- Parsing performance: the current implementation of `JsonParser` utilitzes `System.Text.Json.JsonDocument.Parse` which results in allocation of the whole DOM for each record parsed. Re-implementing the parser to respect a pull-based parser design would remove a lot of the allocation and GC overhead.
