@@ -289,7 +289,7 @@ namespace ETLEngine
         private int exceptionsQueueMaxItems = DefaultExceptionsQueueMaxItems;
 
         private int maxExtractionWorkers = 4;
-        private int maxTransformationWorkers = Math.Min(1, Environment.ProcessorCount - 1);
+        private int maxTransformationWorkers = Math.Max(1, Environment.ProcessorCount - 1);
 
         /// <summary>
         /// Sets the validation pipeline which the engine will use to filter extracted objects.
