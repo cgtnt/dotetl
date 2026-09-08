@@ -1,5 +1,5 @@
 name: CI
-
+# Disclaimer: AI-generated file
 on:
   push:
     branches: [ "main", "master" ]
