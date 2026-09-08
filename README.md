@@ -1,8 +1,7 @@
 # ETL Engine
 
 [![Build Status](https://github.com/cgtnt/dotetl/actions/workflows/ci.yml/badge.svg)](https://github.com/cgtnt/dotetl/actions/workflows/ci.yml)
-<!-- To display the coverage badge, consider using Coveralls or Codecov, or a tool that commits the badge to a gist. -->
-![Code Coverage](https://img.shields.io/badge/Coverage-Check%20Actions-brightgreen)
+![Code Coverage](https://raw.githubusercontent.com/cgtnt/dotetl/main/badges/coverage.svg)
 
 A multithreaded Extract-Transform-Load engine for C#, free of third-party dependencies.
 
